@@ -51,7 +51,7 @@ entries:
     type: application
     urls:
     - https://chirag95.github.io/wso2-helm/helm-chart-test-0.1.0.tgz
-    version: 0.1.0
+    version: 1.0.0
   test1:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -62,5 +62,5 @@ entries:
     type: application
     urls:
     - https://chirag95.github.io/wso2-helm/test1-0.1.0.tgz
-    version: 0.1.0
+    version: 1.0.0
 generated: "2021-03-18T10:53:05.822062912Z"
