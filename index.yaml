@@ -50,7 +50,7 @@ entries:
     name: helm-chart-test
     type: application
     urls:
-    - https://chirag95.github.io/wso2-helm/helm-chart-test-0.1.0.tgz
+    - https://chirag95.github.io/wso2-helm/helm-chart-test-1.0.0.tgz
     version: 1.0.0
   test1:
   - apiVersion: v2
