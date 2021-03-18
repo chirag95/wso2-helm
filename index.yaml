@@ -3,7 +3,7 @@ entries:
   am-pattern-1:
   - apiVersion: v1
     appVersion: 3.2.0
-    created: "2021-03-18T10:07:23.122385936Z"
+    created: "2021-03-18T10:10:30.301660882Z"
     dependencies:
     - condition: wso2.deployment.dependencies.mysql
       name: mysql-am
@@ -16,29 +16,8 @@ entries:
     description: A Helm chart for the deployment of WSO2 API Manager Pattern 1 (HA
       All-In-One Deployment with Analytics)
     digest: 1ce9405cdba227d8347b97418990cba6193332382a0036ab68874e308cb39009
-    icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
     name: am-pattern-1
     urls:
-    - https://github.com/chirag95/wso2-helm/am-pattern-1-3.2.0-3.tgz
+    - https://chirag95.github.io/wso2-helm/am-pattern-1-3.2.0-3.tgz
     version: 3.2.0-3
-  - apiVersion: v1
-    appVersion: 3.2.0
-    created: "2021-03-18T10:07:23.13822675Z"
-    dependencies:
-    - condition: wso2.deployment.dependencies.mysql
-      name: mysql-am
-      repository: https://helm.wso2.com
-      version: 3.2.0-3
-    - condition: wso2.deployment.dependencies.nfsServerProvisioner
-      name: nfs-server-provisioner
-      repository: https://kvaps.github.io/charts
-      version: 1.2.0
-    description: A Helm chart for the deployment of WSO2 API Manager Pattern 1 (HA
-      All-In-One Deployment with Analytics)
-    digest: f4ea75233a4d719682b17e59934b0ff45c825c41d2dfdc1691a2024610f3d83f
-    icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
-    name: am-pattern-1
-    urls:
-    - https://github.com/chirag95/wso2-helm/advanced/am-pattern-1-3.2.0-3.tgz
-    version: 3.2.0-3
-generated: "2021-03-18T10:07:23.109604924Z"
+generated: "2021-03-18T10:10:30.28526492Z"
